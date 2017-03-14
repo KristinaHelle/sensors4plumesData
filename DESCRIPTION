@@ -1,0 +1,17 @@
+Package: sensors4plumesData
+Type: Package
+Title: Data for sensors4plumes
+Version: 0.0.1
+Author: Kristina B. Helle
+Maintainer: Kristina B. Helle <kristina.helle@uni-muenster.de>
+Description: This package contains large datasets with plume simulations to be used with sensors4plumes. Besides it contains raw data formats to demonstrate possible input formats for plume simulations in \inst\extdata.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+Depends: R (>= 3.0.0), sensors4plumes
+Suggests: 
+Collate: 
+  sensors4plumesData.R
+
+
