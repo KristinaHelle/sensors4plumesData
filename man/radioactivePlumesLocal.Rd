@@ -28,5 +28,8 @@ data(radioactivePlumes_local)
 \examples{
 data(radioactivePlumes_local)
 plot(radioactivePlumes_local, zcol = 1)
+
+# the dataset used in sensors4plumes is a subset
+radioactivePlumes = subset(radioactivePlumes_local, locations = 1:2001, plumes = seq(1,292,5))
 }
 \keyword{datasets}
